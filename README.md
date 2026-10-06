@@ -62,7 +62,7 @@ Lazarus 自绘控件库。169 个控件全部由 BGRABitmap 绘制,外观由 `.t
 
 **1. 安装包**
 
-Lazarus 里打开 `tycontrols_dt.lpk`,点 **Use → Install**,IDE 重新编译并重启。运行期包 `tycontrols.lpk` 作为依赖自动安装。
+`Lazarus` 里先 `OnlinePackageManager` 里搜索安装 `BGRABitmap` 插件，然后 `Package` 里 `Open Package File(.lpk)` 打开当前项目下的 `tycontrols_dt.lpk`文件（Linux不要直接下载 Release 的 zip 代码包，会遇到找不到文件的 bug），点 **Use → Install**,IDE 重新编译并重启。运行期包 `tycontrols.lpk` 作为依赖自动安装。
 
 **2. 新建工程**
 
